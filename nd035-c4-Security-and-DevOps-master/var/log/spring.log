@@ -1,0 +1,52 @@
+2023-07-19 09:11:46.819  INFO 22776 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on CVP00260293C with PID 22776 (D:\Udacity\Project4\nd035-c4-Security-and-DevOps-master\starter_code\target\classes started by SonNV43 in D:\Udacity\Project4\nd035-c4-Security-and-DevOps-master)
+2023-07-19 09:11:46.822  INFO 22776 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2023-07-19 09:11:48.053  INFO 22776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-07-19 09:11:48.179  INFO 22776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112ms. Found 4 repository interfaces.
+2023-07-19 09:11:48.951  INFO 22776 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b59ce9a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-19 09:11:49.602  INFO 22776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19 09:11:49.638  INFO 22776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19 09:11:49.640  INFO 22776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-07-19 09:11:49.832  INFO 22776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19 09:11:49.833  INFO 22776 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2863 ms
+2023-07-19 09:11:50.135  INFO 22776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-19 09:11:50.339  INFO 22776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-19 09:11:50.514  INFO 22776 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-07-19 09:11:50.674  INFO 22776 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2023-07-19 09:11:50.677  INFO 22776 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2023-07-19 09:11:50.881  INFO 22776 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-07-19 09:11:51.131  INFO 22776 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-19 09:11:52.154  INFO 22776 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-19 09:11:53.447  INFO 22776 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@564d3940, org.springframework.security.web.context.SecurityContextPersistenceFilter@62f6185a, org.springframework.security.web.header.HeaderWriterFilter@56976b8b, org.springframework.web.filter.CorsFilter@58ad0586, org.springframework.security.web.authentication.logout.LogoutFilter@10ec4721, com.example.demo.security.JWTAuthenticationFilter@526fc044, com.example.demo.security.JWTAuthenticationVerificationFilter@45635ae1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@446f3a53, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c8d638a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7adbec34, org.springframework.security.web.session.SessionManagementFilter@5b0575d0, org.springframework.security.web.access.ExceptionTranslationFilter@b548f51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@306bf4c3]
+2023-07-19 09:11:53.785  INFO 22776 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-19 09:11:53.841  WARN 22776 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-19 09:11:54.472  INFO 22776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19 09:11:54.479  INFO 22776 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 8.298 seconds (JVM running for 8.857)
+2023-07-19 09:12:03.639  INFO 22776 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-19 09:12:03.639  INFO 22776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-19 09:12:03.649  INFO 22776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2023-07-19 09:12:03.964  INFO 22776 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Create new user user1 created
+2023-07-19 09:12:06.136  WARN 22776 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2023-07-19 09:12:06.136 ERROR 22776 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2023-07-19 09:12:06.143  INFO 22776 --- [http-nio-8080-exec-3] com.example.demo.exception.Exception     : Has an error occur
+2023-07-19 09:12:27.105  WARN 22776 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2023-07-19 09:12:27.106 ERROR 22776 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2023-07-19 09:12:27.108  INFO 22776 --- [http-nio-8080-exec-4] com.example.demo.exception.Exception     : Has an error occur
+2023-07-18 09:12:31.780  INFO 22776 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Create new user user2 created
+2023-07-19 09:23:11.941  INFO 22776 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Create new user user3 created
+2023-07-19 09:23:11.941  INFO 22776 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Create new user user4 created
+2023-07-19 09:23:11.941  INFO 22776 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Create new user user5 created
+2023-07-19 09:24:26.937  INFO 22776 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Create new user user6 created
+2023-07-19 09:24:29.590  INFO 22776 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Create new user user7 created
+2023-07-19 09:25:29.590  INFO 22776 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Create new user user8 created
+2023-07-19 09:25:29.590  INFO 22776 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Create new user user9 created
+2023-07-19 09:26:29.590  INFO 22776 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Create new user user10 created
+2023-07-19 09:27:44.118  INFO 22776 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Create new user user11 created
+2023-07-19 09:27:44.118  INFO 22776 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Create new user user12 created
+2023-07-19 09:55:52.694  INFO 22776 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-19 09:55:52.697  INFO 22776 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-19 09:55:52.719  INFO 22776 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-19 09:55:52.727  INFO 22776 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
